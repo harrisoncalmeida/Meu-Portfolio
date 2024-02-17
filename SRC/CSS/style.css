@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var();
+    font-family: var(--font-family-secudaria);
     max-height: 100vh;
     background-color: var(--cor-primaria);
     line-height: inherit;
@@ -79,6 +79,11 @@ section {
     margin: 1rem auto;
 }
 
+.detalhes {
+    margin: 0 3.95em;
+    width: 70%;
+}
+
 .principal h1 {
     font-size: 2.5rem;
     font-weight: 600;
@@ -89,14 +94,23 @@ section {
     font-size: 1rem;
 }
 
+.text-titulo{
+    font-size: 22px;
+    font-family: var(--font-family-secudaria);
+    font-weight: 600;
+    color: var(--cor-quartenaria);
+}
+
 .text {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--cor-quartenaria);
     font-family: var(--font-family-secudaria);
     font-weight: 300;
 }
 
 .text-decoration {
+    font-size: 36px;
+    font-family: var(--font-family-secudaria);
     color: var(--cor-terciaria);
 }
 
@@ -148,6 +162,7 @@ a {
 .imagens {
     display: flex;
     justify-content: flex-end;
+    width: 93%;
 }
 
 .footer {
