@@ -1,5 +1,7 @@
 /* Styles */
 @import url("./header.css");
+@import url("./main.css");
+@import url("./rodape.css");
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
@@ -9,7 +11,9 @@
     --font-secundaria: "Lexend", sans-serif;
     --cor-primaria: #ffffff;
     --cor-secundaria: #18181b;
-    --cor-terciaria: #db9064
+    --cor-terciaria: #db9064;
+    --cor-botaodistintohover: #DB9064D9;
+    --cor-botaohover: #DB90645E;
 }
 
 body {

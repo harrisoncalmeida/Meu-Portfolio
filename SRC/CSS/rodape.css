@@ -1,0 +1,17 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    font-family: var(--font-secundaria);
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    padding: 1.5rem 1rem;
+}
+
+.rodape__texto {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
