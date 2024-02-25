@@ -92,7 +92,7 @@ a:hover {
     font-size: 0.63rem;
 }
 
-h4, p {
+.texto-carousel, .titulo-carousel {
     display: center;
     text-align: center;
     font-family: var(--font-primaria);
