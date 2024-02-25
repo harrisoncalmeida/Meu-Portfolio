@@ -29,7 +29,7 @@ main {
     font-family: var(--font-primaria);
     font-size: 2.25rem;
     font-weight: 500;
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
     margin-top: 0.5rem;
 }
 

@@ -11,9 +11,9 @@
     --font-secundaria: "Lexend", sans-serif;
     --cor-primaria: #ffffff;
     --cor-secundaria: #18181b;
-    --cor-terciaria: #db9064;
-    --cor-botaodistintohover: #DB9064D9;
-    --cor-botaohover: #DB90645E;
+    --cor-terciaria: #0fc3e8;
+    --cor-botaodistintohover: #0fc3e8D9;
+    --cor-botaohover: #0fc3e85E;
 }
 
 body {
