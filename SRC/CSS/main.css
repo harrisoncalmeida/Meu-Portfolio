@@ -15,7 +15,7 @@ main {
 }
 
 .imagem {
-    border-radius: 15px; /* Parei aqui */
+    border-radius: 15px;
 }
 
 .texto__secundario {
@@ -105,3 +105,9 @@ main {
 .botao:hover {
     background-color: var(--cor-botaohover);
 }
+
+.imagem:hover {animation: rotate 0.75s infinite;}
+    @keyframes rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(5deg); }
+    }
