@@ -15,3 +15,9 @@
     text-decoration: none;
     color: var(--cor-primaria);
 }
+
+@media screen and (min-width: 1920px) {
+    .rodape {
+        margin-top: 11.10rem;
+    }
+}
