@@ -122,7 +122,7 @@ main {
     
     .imagem__main {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         padding-bottom: 0.75rem;
     }
     
@@ -142,6 +142,22 @@ main {
     .texto__terciario {
         margin-top: 0.75rem;
         margin-bottom: 0.75rem;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2.25rem;
+        gap: 1rem;
+    }
+    
+    .botao__distinto {
+        justify-content: center;
+    }
+
+    .botao {
+        justify-content: center;
     }
 }
 
