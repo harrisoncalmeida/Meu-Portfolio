@@ -1,6 +1,7 @@
 .rodape {
     display: flex;
     justify-content: center;
+    margin-top: auto; /* Garante que o rodapé fique no final da página */
 }
 
 .rodape {
@@ -14,10 +15,20 @@
 .rodape__texto {
     text-decoration: none;
     color: var(--cor-primaria);
+    padding-top: 100px;
 }
 
-@media screen and (min-width: 1920px) {
-    .rodape {
-        margin-top: 11.10rem;
-    }
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    
+}
+
+/* Desktop */
+@media screen and (max-width: 1024px) {
+    
 }
