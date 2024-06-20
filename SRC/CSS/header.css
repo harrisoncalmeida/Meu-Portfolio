@@ -36,7 +36,18 @@
 
 /* Smartphone */
 @media screen and (max-width: 767px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .texto__nav {
+        font-size: .75rem;
+    }
     
+    .lista__nav {
+        font-size: .75rem;
+    }
 }
 
 /* Tablet */
