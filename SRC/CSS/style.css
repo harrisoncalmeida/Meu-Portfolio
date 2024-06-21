@@ -1,11 +1,12 @@
-/* Styles */
+/* Import styles */
 @import url("./header.css");
 @import url("./main.css");
 @import url("./rodape.css");
 
-/* fonts */
+/* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+/* My root */
 :root {
     --font-primaria: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
     --font-secundaria: "Lexend", sans-serif;
@@ -16,6 +17,7 @@
     --cor-botaohover: #0fc3e85E;
 }
 
+/* HTML e body */
 html, body {
     background-color: var(--cor-secundaria);
     height: 100%;
