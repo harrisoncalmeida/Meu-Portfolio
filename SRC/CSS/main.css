@@ -151,22 +151,9 @@ main {
         margin-top: 2.25rem;
         gap: 1rem;
     }
-    
-    .botao__distinto {
-        justify-content: center;
-    }
-
-    .botao {
-        justify-content: center;
-    }
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-    
-}
 
-/* Desktop */
-@media screen and (max-width: 1024px) {
-    
 }
