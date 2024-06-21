@@ -1,3 +1,4 @@
+/* CSS Main e Image */
 main {
     flex: 1 1 0%;
     padding: 1rem;
@@ -9,17 +10,25 @@ main {
     margin: auto;
 }
 
-.imagem__main {
+.image-content {
     display: flex;
     justify-content: flex-end;
 }
 
-.imagem {
+.image {
     border-radius: 15px;
 }
 
+/* CSS Text e Buttons */
 
-.texto__primaria {
+.text-one {
+    font-family: var(--font-primaria);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-primaria);
+}
+
+.text-two {
     font-family: var(--font-primaria);
     font-size: 2.25rem;
     font-weight: 500;
@@ -27,21 +36,14 @@ main {
     margin-top: 0.5rem;
 }
 
-.texto__secundario {
-    font-family: var(--font-primaria);
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: var(--cor-primaria);
-}
-
-.texto__terciario {
+.text-three {
     font-family: var(--font-primaria);
     color: var(--cor-primaria);
     margin-top: 1.50rem;
     margin-bottom: 1.50rem;
 }
 
-.botoes {
+.buttons {
     display: flex;
     justify-content: flex-start;
     text-align: center;
@@ -49,21 +51,21 @@ main {
     gap: 1rem;
 }
 
-.botao__distinto {
+.button-single {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--cor-primaria);
 }
 
-.botao__distinto {
+.button-single {
     border: 1px solid var(--cor-terciaria);
     border-radius: 10px;
     padding: 0.75rem 0.75rem;
     background-color: var(--cor-terciaria);
 }
 
-.botao__distinto {
+.button-single {
     font-family: var(--font-primaria);
     font-weight: 600;
     font-size: 1rem;
@@ -71,20 +73,20 @@ main {
     padding-right: 1rem;
 }
 
-.botao {
+.button {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--cor-terciaria);
 }
 
-.botao {
+.button {
     border: 1px solid var(--cor-terciaria);
     border-radius: 10px;
     padding: 0.75rem 0.75rem;
 }
 
-.botao {
+.button {
     font-family: var(--font-primaria);
     font-weight: 600;
     font-size: 1rem;
@@ -92,20 +94,20 @@ main {
     padding-right: 1rem;
 }
 
-.logo__botao {
+.icon-button {
     margin-right: 0.35rem;
 }
 
-.botao__distinto:hover {
+.button-single:hover {
     background-color: var(--cor-botaodistintohover);
     border-color: var(--cor-botaohover);
 }
 
-.botao:hover {
+.button:hover {
     background-color: var(--cor-botaohover);
 }
 
-.imagem:hover {animation: rotate 0.75s infinite;}
+.image:hover {animation: rotate 0.75s infinite;}
     @keyframes rotate {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(5deg); }
@@ -120,31 +122,31 @@ main {
         flex-direction: column; /* Alinha os itens em coluna para melhor responsividade */
     }
     
-    .imagem__main {
+    .image-content {
         display: flex;
         justify-content: center;
         padding-bottom: 0.75rem;
     }
     
-    .imagem {
+    .image {
         border-radius: 15px;
     }
 
-    .texto__primaria, 
-    .texto__secundario, 
-    .texto__terciario {
+    .text-one, 
+    .text-two, 
+    .text-three {
         font-size: .75rem;
         font-weight: 500;
         margin: 0.75rem 0; /* Ajusta a margem para apenas superior e inferior */
         word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
     }
 
-    .texto__terciario {
+    .text-three {
         margin-top: 0.75rem;
         margin-bottom: 0.75rem;
     }
 
-    .botoes {
+    .buttons {
         display: flex;
         flex-direction: column;
         text-align: center;

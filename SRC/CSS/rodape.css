@@ -1,10 +1,11 @@
-.rodape {
+/* Baseboard project */
+.baseboard {
     display: flex;
     justify-content: center;
     margin-top: auto; /* Garante que o rodapé fique no final da página */
 }
 
-.rodape {
+.baseboard {
     font-family: var(--font-secundaria);
     font-size: .875rem;
     font-weight: 300;
@@ -12,7 +13,7 @@
     padding: 1.5rem 1rem;
 }
 
-.rodape__texto {
+.text-baseboard {
     text-decoration: none;
     color: var(--cor-primaria);
     padding-top: 100px;
