@@ -6,31 +6,31 @@
     justify-content: space-between;
 }
 
-.titulo__nav {
+.title-nav {
     font-family: var(--font-secundaria);
     font-size: 1.125rem;
     font-weight: 500;
 }
 
-.texto__nav {
+.text-title {
     text-decoration: none;
     color: var(--cor-primaria);
 }
 
-.lista__nav {
+.list-nav {
     font-family: var(--font-secundaria);
     font-size: 0.95rem;
     font-weight: 400;
     justify-content: flex-end;
 }
 
-.nav__link {
+.link-nav {
     text-decoration: none;
     color: var(--cor-primaria);
     padding: 0 1em ;
 }
 
-.nav__link:hover {
+.link-nav:hover {
     color: var(--cor-terciaria);
 }
 
@@ -41,11 +41,15 @@
         justify-content: space-between;
     }
 
-    .texto__nav {
-        font-size: .75rem;
+    .title-nav {
+        font-size: 1rem;
     }
     
-    .lista__nav {
+    .list-nav {
         font-size: .75rem;
+    }
+
+    .link-nav {
+        padding: 0 0.40em;
     }
 }
