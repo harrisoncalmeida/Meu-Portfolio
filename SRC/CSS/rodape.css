@@ -18,3 +18,10 @@ footer {
     text-decoration: none;
     color: var(--cor-primaria);
 }
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .baseboard {
+        font-size: .75rem;
+    }
+}
