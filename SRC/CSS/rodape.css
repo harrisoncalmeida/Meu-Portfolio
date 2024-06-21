@@ -1,13 +1,14 @@
 /* Baseboard project */
-.baseboard {
+footer {
     display: flex;
-    justify-content: center;
-    margin-top: auto; /* Garante que o rodapé fique no final da página */
+    flex-direction: column;
 }
 
 .baseboard {
+    display: flex;
+    text-align: center;
     font-family: var(--font-secundaria);
-    font-size: .875rem;
+    font-size: .85rem;
     font-weight: 300;
     line-height: 1.25rem;
     padding: 1.5rem 1rem;
@@ -16,5 +17,4 @@
 .text-baseboard {
     text-decoration: none;
     color: var(--cor-primaria);
-    padding-top: 100px;
 }

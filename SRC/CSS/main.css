@@ -1,4 +1,4 @@
-/* CSS Main e Image */
+/* CSS main e image */
 main {
     flex: 1 1 0%;
     padding: 1rem;
@@ -19,8 +19,7 @@ main {
     border-radius: 15px;
 }
 
-/* CSS Text e Buttons */
-
+/* CSS text e buttons */
 .text-one {
     font-family: var(--font-primaria);
     font-size: 1.125rem;
@@ -45,7 +44,7 @@ main {
 
 .buttons {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     text-align: center;
     margin-top: 3.25rem;
     gap: 1rem;
@@ -69,8 +68,8 @@ main {
     font-family: var(--font-primaria);
     font-weight: 600;
     font-size: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .button {
@@ -90,8 +89,8 @@ main {
     font-family: var(--font-primaria);
     font-weight: 600;
     font-size: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .icon-button {
