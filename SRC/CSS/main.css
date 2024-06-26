@@ -31,7 +31,7 @@ main {
     font-family: var(--font-primaria);
     font-size: 2.25rem;
     font-weight: 500;
-    color: var(--cor-terciaria);
+    color: var(--cor-tertiary);
     margin-top: 0.5rem;
 }
 
@@ -58,10 +58,10 @@ main {
 }
 
 .button-single {
-    border: 1px solid var(--cor-terciaria);
+    border: 1px solid var(--cor-tertiary);
     border-radius: 10px;
     padding: 0.75rem 0.75rem;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-tertiary);
 }
 
 .button-single {
@@ -76,11 +76,11 @@ main {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--cor-terciaria);
+    color: var(--cor-tertiary);
 }
 
 .button {
-    border: 1px solid var(--cor-terciaria);
+    border: 1px solid var(--cor-tertiary);
     border-radius: 10px;
     padding: 0.75rem 0.75rem;
 }
