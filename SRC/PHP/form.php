@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $form-name = $_POST['form-name'];
-    $form-email = $_POST['form-email'];
-    $form-message = $_POST['form-message'];
+    $name = $_POST['form-name'];
+    $email = $_POST['form-email'];
+    $message = $_POST['form-message'];
 
     $to = "harrisonalmeidatr@gmail.com";  // Substitua com seu endereço de e-mail
     $subject = "Nova mensagem do formulário de contato";
