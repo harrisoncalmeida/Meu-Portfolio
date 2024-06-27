@@ -18,31 +18,59 @@
 
 <body>
     <!-- Header project -->
-    <header>
-        <h1 class="title-contact">Contato</h1>
+    <!-- Header project -->
+    <header class="header">
+        <!-- Title project -->
+        <div class="title-nav">
+            <a href="index.html" class="text-title">Harrison Almeida</a>
+        </div>
+        <!-- Navbar project -->
+        <nav class="list-nav">
+            <a href="https://github.com/harrisoncalmeida?tab=repositories" class="link-nav"
+                title="Projetos">Projetos</a>
+            <a href="#" class="link-nav" title="CV">CV</a>
+            <a href="./contact.html" class="link-nav" title="Contact me">
+                <svg data-v-c7eb9a16="" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m10.308 13.692l4.846-4.846M20.11 5.89l-4.09 13.294c-.367 1.192-.55 1.788-.867 1.985a.999.999 0 0 1-.912.076c-.345-.143-.624-.7-1.182-1.816l-2.59-5.182a2.104 2.104 0 0 0-.193-.342a1.002 1.002 0 0 0-.18-.181a2.036 2.036 0 0 0-.331-.186L4.572 10.94c-1.115-.558-1.673-.837-1.816-1.181a1 1 0 0 1 .076-.913c.197-.316.793-.5 1.985-.867l13.295-4.09c.937-.289 1.405-.433 1.722-.316a1 1 0 0 1 .594.594c.116.316-.028.784-.316 1.72v.002Z">
+                    </path>
+                </svg>
+            </a>
+        </nav>
     </header>
 
     <!-- Main project -->
     <main>
-        <div class="forms">
-            <label class="form-name" for="username">Nome</label>
-            <input class="form-control-name" type="name" id="form-name">
+        <div class="title">
+            <h1 class="title-text">Entre em contato comigo</h1>
         </div>
-        <div class="forms">
-            <label class="form-email" for="useremail">Endereço de email</label>
-            <input class="form-control-email" type="email" id="form-email" placeholder="name@example.com">
-        </div>
-        <div class="forms">
-            <label class="form-message" for="usermessage">Área de mensagem</label>
-            <textarea class="form-control-message" id="message"></textarea>
-        </div>
-        <div class="buttons">
-            <a href="https://www.linkedin.com/in/harrison-almeida-7ba8b9206/" title="Link para meu perfil do Linkedin"
-                role="button" class="button">
-                <img width="20" height="20" src="./SRC/Img/send.png" alt="linkedin" class="icon-button" />
-                Enviar
-            </a>
-        </div>
+        <article class="content">
+            <div class="form-text">
+                <p class="text-one">Se você quiser falar comigo sobre qualquer coisa, sinta-se à vontade para entrar em contato.</p>
+            </div>
+            <div class="forms">    
+                <div class="form">
+                    <label class="form-name" for="username">Nome</label>
+                    <input class="form-control-name" type="name" id="form-name" placeholder="Seu nome">
+                </div>
+                <div class="form">
+                    <label class="form-email" for="useremail">Endereço de email</label>
+                    <input class="form-control-email" type="email" id="form-email" placeholder="name@email.com">
+                </div>
+            </div>
+            <div class="form-mess">
+                <label class="form-message" for="usermessage">Área de mensagem</label>
+                <textarea class="form-control-message" id="message" placeholder="Olá, posso fazer uma pergunta?"></textarea>
+            </div>
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/harrison-almeida-7ba8b9206/"
+                    title="Link para meu perfil do Linkedin" role="button" class="button">
+                    <img width="20" height="20" src="./SRC/Img/send.png" alt="linkedin" class="icon-button" />
+                    Enviar
+                </a>
+            </div>
+        </article>
     </main>
 
     <!-- Footer project -->
