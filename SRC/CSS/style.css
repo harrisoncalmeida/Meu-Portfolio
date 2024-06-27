@@ -8,18 +8,18 @@
 
 /* My root */
 :root {
-    --font-primaria: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
-    --font-secundaria: "Lexend", sans-serif;
-    --cor-primaria: #ffffff;
-    --cor-secundaria: #18181b;
+    --font-primary: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    --font-secondary: "Lexend", sans-serif;
+    --cor-primary: #ffffff;
+    --cor-secondary: #18181b;
     --cor-tertiary: #0fc3e8;
-    --cor-botaodistintohover: #0fc3e8D9;
-    --cor-botaohover: #0fc3e85E;
+    --cor-buttonsinglehover: #0fc3e8D9;
+    --cor-buttonhover: #0fc3e85E;
 }
 
 /* HTML e body */
 html, body {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-secondary);
     height: 100%;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ html, body {
 /* Smartphone */
 @media screen and (max-width: 767px) {
     html, body {
-        background-color: var(--cor-secundaria);
+        background-color: var(--cor-secondary);
         height: 100vh;
         margin: 0;
         padding: 0;

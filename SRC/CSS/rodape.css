@@ -7,7 +7,7 @@ footer {
 .baseboard {
     display: flex;
     text-align: center;
-    font-family: var(--font-secundaria);
+    font-family: var(--font-secondary);
     font-size: .85rem;
     font-weight: 300;
     line-height: 1.25rem;
@@ -16,7 +16,7 @@ footer {
 
 .text-baseboard {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-primary);
 }
 
 /* Smartphone */

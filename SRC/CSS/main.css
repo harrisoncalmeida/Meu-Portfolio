@@ -21,14 +21,14 @@ main {
 
 /* CSS text e buttons */
 .text-one {
-    font-family: var(--font-primaria);
+    font-family: var(--font-primary);
     font-size: 1.125rem;
     font-weight: 500;
-    color: var(--cor-primaria);
+    color: var(--cor-primary);
 }
 
 .text-two {
-    font-family: var(--font-primaria);
+    font-family: var(--font-primary);
     font-size: 2.25rem;
     font-weight: 500;
     color: var(--cor-tertiary);
@@ -36,10 +36,11 @@ main {
 }
 
 .text-three {
-    font-family: var(--font-primaria);
-    color: var(--cor-primaria);
+    font-family: var(--font-primary);
+    color: var(--cor-primary);
     margin-top: 1.50rem;
     margin-bottom: 1.50rem;
+    text-align: justify;
 }
 
 .buttons {
@@ -54,7 +55,7 @@ main {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-primary);
 }
 
 .button-single {
@@ -65,7 +66,7 @@ main {
 }
 
 .button-single {
-    font-family: var(--font-primaria);
+    font-family: var(--font-primary);
     font-weight: 600;
     font-size: 1rem;
     padding-left: 2rem;
@@ -86,7 +87,7 @@ main {
 }
 
 .button {
-    font-family: var(--font-primaria);
+    font-family: var(--font-primary);
     font-weight: 600;
     font-size: 1rem;
     padding-left: 2rem;
@@ -98,12 +99,12 @@ main {
 }
 
 .button-single:hover {
-    background-color: var(--cor-botaodistintohover);
-    border-color: var(--cor-botaohover);
+    background-color: var(--cor-buttonsinglehover);
+    border-color: var(--cor-buttonhover);
 }
 
 .button:hover {
-    background-color: var(--cor-botaohover);
+    background-color: var(--cor-buttonhover);
 }
 
 .image:hover {animation: rotate 0.75s infinite;}
