@@ -38,9 +38,7 @@ main {
 .text-three {
     font-family: var(--font-primary);
     color: var(--cor-primary);
-    margin-top: 1.50rem;
-    margin-bottom: 1.50rem;
-    text-align: justify;
+    margin-top: 1rem;
 }
 
 .buttons {
