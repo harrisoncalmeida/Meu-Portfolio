@@ -226,6 +226,7 @@ textarea {
   }
 
   .form-status {
+    color: var(--cor-primary);
     font-size: 0.5rem;
   }
 }
