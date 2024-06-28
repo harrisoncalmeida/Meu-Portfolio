@@ -7,8 +7,7 @@
 
 /* My root */
 :root {
-  --font-primary: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-primary: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-secondary: "Lexend", sans-serif;
   --cor-primary: #ffffff;
   --cor-secondary: #18181b;
