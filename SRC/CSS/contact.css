@@ -29,6 +29,29 @@ main {
     padding: 1rem;
 }
 
+/* Title */
+.title {
+    display: flex;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+}
+
+.title-text {
+    color: var(--cor-primary);
+    font-family: var(--font-secondary);
+    font-size: 2.125rem;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 0.50rem 0 0 0;
+}
+
 /* Article */
 label {
     font-size: .875rem;
@@ -52,28 +75,6 @@ input {
 
 textarea {
     height: 10rem;
-}
-
-.title {
-    display: flex;
-    max-width: 48rem;
-    margin: 0 auto;
-    padding: 2.5rem 1.5rem;
-}
-
-.title-text {
-    color: var(--cor-primary);
-    font-family: var(--font-secondary);
-    font-size: 2.125rem;
-    font-weight: 600;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    max-width: 48rem;
-    margin: 0 auto;
-    padding: 0.50rem 0 0 0;
 }
 
 .form-text {
