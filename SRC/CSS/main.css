@@ -65,6 +65,10 @@ main {
     padding-right: 2rem;
 }
 
+.button-single {
+    background-color: var(--cor-tertiary);
+}
+
 .button {
     color: var(--cor-tertiary);
 }
