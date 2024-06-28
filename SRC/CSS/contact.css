@@ -63,7 +63,7 @@ main {
   color: var(--cor-primary);
   font-family: var(--font-primary);
   font-size: 1rem;
-  font-size: 300;
+  font-weight: 300; /* Corrigido aqui */
 }
 
 .forms {
@@ -141,25 +141,12 @@ textarea {
   text-decoration: none;
   color: var(--cor-tertiary);
   background-color: var(--cor-buttonsinglehover);
-}
-
-.button {
   border: 1px solid var(--cor-tertiary);
   border-radius: 10px;
   padding: 0.75rem 1.75rem;
-}
-
-.button {
   font-family: var(--font-primary);
   font-weight: 600;
   font-size: 1rem;
-  color: var(--cor-primary);
-}
-
-.form-status {
-  font-family: var(--font-secondary);
-  font-size: 0.85rem;
-  font-weight: 300;
   color: var(--cor-primary);
 }
 
@@ -177,8 +164,7 @@ textarea {
   html,
   body {
     background-color: var(--cor-secondary);
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; /* display: flex; foi removido */
   }
 
   /* Main */
@@ -196,7 +182,7 @@ textarea {
     font-size: 1.125rem;
   }
 
-  /* Artcile */
+  /* Article */
   .content {
     display: flex;
     flex-direction: column;
@@ -229,10 +215,7 @@ textarea {
     height: 5rem;
   }
 
-  .form-control-name {
-    width: 100%;
-  }
-
+  .form-control-name,
   .form-control-email {
     width: 100%;
   }
