@@ -49,21 +49,15 @@ main {
     gap: 1rem;
 }
 
-.button-single {
+.button-single,
+.button {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--cor-primary);
-}
-
-.button-single {
     border: 1px solid var(--cor-tertiary);
     border-radius: 10px;
     padding: 0.75rem 0.75rem;
-    background-color: var(--cor-tertiary);
-}
-
-.button-single {
     font-family: var(--font-primary);
     font-weight: 600;
     font-size: 1rem;
@@ -72,24 +66,7 @@ main {
 }
 
 .button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
     color: var(--cor-tertiary);
-}
-
-.button {
-    border: 1px solid var(--cor-tertiary);
-    border-radius: 10px;
-    padding: 0.75rem 0.75rem;
-}
-
-.button {
-    font-family: var(--font-primary);
-    font-weight: 600;
-    font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .icon-button {
@@ -105,40 +82,35 @@ main {
     background-color: var(--cor-buttonhover);
 }
 
-.image:hover {animation: rotate 0.75s infinite;}
-    @keyframes rotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(5deg); }
-    }
+.image:hover {
+    animation: rotate 0.75s infinite;
+}
 
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(5deg); }
+}
 
 /* Smartphone */
 @media screen and (max-width: 767px) {
-    
     .main {
-        display: flex;
-        flex-direction: column;     /* Alinha os itens em coluna para melhor responsividade */
+        flex-direction: column;
     }
-    
+
     .image-content {
-        display: flex;
         justify-content: center;
         padding-bottom: 0.75rem;
-    }
-    
-    .image {
-        border-radius: 15px;
     }
 
     .text-one, 
     .text-two, 
     .text-three {
-        text-align: justify;    /* Ajuste do texto */
-        line-height: 1rem;      /* Ajuste da altura entre as linhas*/
-        font-size: .85rem;
+        text-align: justify;
+        line-height: 1rem;
+        font-size: 0.85rem;
         font-weight: 500;
-        margin: 0.75rem 0;      /* Ajusta a margem para apenas superior e inferior */
-        word-wrap: break-word;  /* Garante que palavras longas quebrem corretamente */
+        margin: 0.75rem 0;
+        word-wrap: break-word;
     }
 
     .text-three {
@@ -147,31 +119,29 @@ main {
     }
 
     .buttons {
-        display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;  /* Centraliza os botões no contêiner */
+        justify-content: space-around;
         margin: auto;
         margin-top: 2.25rem;
         gap: 1rem;
     }
-    
-    .button-single, .button {
-        display: flex;            /* Usa flexbox para centralizar conteúdo */
-        align-items: center;      /* Centraliza verticalmente o conteúdo */
-        justify-content: center;  /* Centraliza horizontalmente o conteúdo */
-        width: 150px;             /* Define uma largura fixa */
-        height: 50px;             /* Define uma altura fixa */
+
+    .button-single,
+    .button {
+        justify-content: center;
+        width: 150px;
+        height: 50px;
         font-size: 0.75rem;
-        padding: 0 1rem;          /* Adiciona espaço interno */
-        cursor: pointer;          /* Altera o cursor para um ponteiro ao passar o mouse */
+        padding: 0 1rem;
+        cursor: pointer;
     }
-    
+
     .button i, .button-single i {
-        margin-right: 8px;        /* Adiciona espaço entre o ícone e o texto */
+        margin-right: 8px;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-
+    /* Adicione regras específicas para tablets aqui */
 }

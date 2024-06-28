@@ -27,15 +27,3 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-
-/* Smartphone */
-@media screen and (max-width: 767px) {
-    html, body {
-        background-color: var(--cor-secondary);
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-}
