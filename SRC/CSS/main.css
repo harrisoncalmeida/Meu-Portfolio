@@ -21,14 +21,14 @@ main {
 
 /* CSS text e buttons */
 .text-one {
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--cor-primary);
 }
 
 .text-two {
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     font-size: 2.25rem;
     font-weight: 500;
     color: var(--cor-tertiary);
@@ -36,9 +36,10 @@ main {
 }
 
 .text-three {
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     color: var(--cor-primary);
     margin-top: 1rem;
+    font-weight: 300;
 }
 
 .buttons {
