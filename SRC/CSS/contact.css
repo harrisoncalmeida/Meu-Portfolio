@@ -156,6 +156,13 @@ textarea {
   color: var(--cor-primary);
 }
 
+.form-status {
+  font-family: var(--font-secondary);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--cor-primary);
+}
+
 .button:hover {
   background-color: var(--cor-buttonhover);
   border: 1px solid var(--cor-buttonhover);
