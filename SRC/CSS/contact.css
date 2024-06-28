@@ -1,3 +1,4 @@
+/* Import styles */
 @import url(./footer.css);
 @import url(./header.css);
 
@@ -63,7 +64,7 @@ main {
   color: var(--cor-primary);
   font-family: var(--font-primary);
   font-size: 1rem;
-  font-weight: 300; /* Corrigido aqui */
+  font-weight: 300;
 }
 
 .forms {
@@ -164,7 +165,7 @@ textarea {
   html,
   body {
     background-color: var(--cor-secondary);
-    flex-direction: column; /* display: flex; foi removido */
+    flex-direction: column;
   }
 
   /* Main */
