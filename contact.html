@@ -50,27 +50,28 @@
                 <p class="text-one">Se você quiser falar comigo sobre qualquer coisa, sinta-se à vontade para entrar em
                     contato.</p>
             </div>
-            <div class="forms">
-                <div class="form">
-                    <label class="form-name" for="username">Nome</label>
-                    <input class="form-control-name" type="name" id="form-name" placeholder="Seu nome">
+            <form action="./SRC/PHP/email.php" method="POST">
+                <div class="forms">
+                    <div class="form">
+                        <label class="form-name"for="username">Nome</label>
+                        <input class="form-control-name" name="nome" type="text" id="form-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form">
+                        <label class="form-email" for="useremail">Endereço de email</label>
+                        <input class="form-control-email" name="email" type="email" id="form-email" placeholder="name@email.com">
+                    </div>
                 </div>
-                <div class="form">
-                    <label class="form-email" for="useremail">Endereço de email</label>
-                    <input class="form-control-email" type="email" id="form-email" placeholder="name@email.com">
+                <div class="form-mess">
+                    <label class="form-message" for="usermessage">Área de mensagem</label>
+                    <textarea class="form-control-message" name="mensagem" id="textAreaMensagem" required maxlength="300" placeholder="Olá, posso fazer uma pergunta?"></textarea>
                 </div>
-            </div>
-            <div class="form-mess">
-                <label class="form-message" for="usermessage">Área de mensagem</label>
-                <textarea class="form-control-message" id="message"
-                    placeholder="Olá, posso fazer uma pergunta?"></textarea>
-            </div>
-            <div class="buttons">
-                <button type="submit" role="button" class="button">
-                    <img width="20" height="20" src="./SRC/Img/send.png" alt="linkedin" class="icon-button" />
-                    Enviar
-                </button>
-            </div>
+                <div class="buttons">
+                    <button type="submit" role="button" class="button">
+                        <img width="20" height="20" src="./SRC/Img/send.png" alt="linkedin" class="icon-button" />
+                        Enviar
+                    </button>
+                </div>
+            </form>
         </article>
     </main>
 
